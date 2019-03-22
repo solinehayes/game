@@ -1,0 +1,112 @@
+#canvas {
+    height: 600px; 
+    width: 100%; 
+    background-color: black;
+    border: 1px solid grey; 
+    box-shadow: 1px light-gray; 
+    border-radius: 5px; 
+}
+#bottom {
+    display: flex; 
+    justify-content: space-between;
+    
+}
+#spaceship {
+    position: absolute; 
+    top: 300px;  
+    left: auto;  
+}
+button {
+    width: 130px;
+    height: 40px;
+    border: 1px solid #2b8bc6;
+    font-size: 15px;
+    text-align: left;
+    text-indent: 5px;
+    color: #2b8bc6; 
+    border-radius: 10px; 
+    font-variant: small-caps;
+    background-color: darkblue; 
+}
+button:hover {
+    width: 130px;
+    height: 40px;
+    border: 1px solid #2b8bc6;
+    background-color: #2b8bc6;
+    font-size: 15px;
+    text-align: left;
+    text-indent: 5px;
+    color: white; 
+    border-radius: 10px; 
+    font-variant: small-caps;
+}
+#asteroid0 {
+    position: absolute; 
+    top: 459px;  
+    left: 390px;  
+    width: 20px; 
+    height: 20px; 
+}
+
+#explosion {
+    visibility:hidden; 
+    position: absolute; 
+    top: 459px;  
+    left: 390px; 
+    width: 60px; 
+    height: 60px; 
+}
+#star {
+    position: absolute; 
+    top: 459px;  
+    left: 1000px;  
+    width: 20px; 
+    height: 20px;
+}
+#win {
+    @import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    visibility:hidden; 
+    text-align: center;  
+    color: #2b8bc6; 
+    font-size: 30px;
+    border: 1px solid #2b8bc6;
+    border-radius: 10px; 
+    padding: 8px; 
+}
+p {
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+    font-family: 'Montserrat'; 
+    text-align: center; 
+    font-size: 19px; 
+    color: white; 
+}
+#rules {
+    font-size: 15px; 
+}
+#copyright{
+    font-size: 10px; 
+}
+body {
+    background-color:  darkblue; 
+}
+#score {
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+    font-family: 'Montserrat'; 
+    text-align: center; 
+    font-size: 19px; 
+    color: white; 
+     
+}
+#score input {
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+    font-family: 'Montserrat'; 
+    text-align: center; 
+    font-size: 19px; 
+    color: white; 
+    background-color: transparent; 
+    border: 1px solid #2b8bc6;
+    border-radius: 10px; 
+    padding: 8px; 
+    height: auto;
+}

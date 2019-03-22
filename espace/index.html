@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/main.css" >
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+        
+       
+        <title>La dernière frontière</title>
+    </head>
+    
+    <body>
+        
+        <div id="canvas">
+            <img src="../media/spaceship.png" id="spaceship">
+            <div id="asteroids" >
+                <img src="../media/asteroid.png" id="asteroid0">
+            </div>
+            <img src="../media/explosion.png" id="explosion"> 
+            <img src="../media/star.png" id="star">
+        </div>
+        <div id="bottom">
+        <button value="Refresh Page" onClick="window.location.reload()"> Start Again! </button>
+        <div id="addandsupp">
+            <button id="add" > Add Asteroid </button>
+        </div>
+        <div id="score"> Score : 
+            <input type="number" readonly="true" id="scoreinput">
+        </div>
+        <div id="text">
+            <p>If the spaceship touches the asteroid, it exploses!</p>
+            <hr>
+            <p id="rules">Try to reach the star ! You can either click to turn or use the arrow keys.</p>
+            <p id="copyright"> Soline Hayes ®</p>
+        </div>
+        <p id="win"> You won </p>
+        </div>
+        <script src="../js/animate.js"></script>
+    </body>
+</html>
